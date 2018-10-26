@@ -1,0 +1,51 @@
+body {
+    margin-left: 25px;
+    margin-top: 10px;
+    //background-image: url("https://www.insidescience.org/sites/default/files/sites/default/files/images/articles/top-images/2018/physics-chalkboard_cropped.jpg");
+    background-size: auto;
+    //font-size:;
+}
+
+.col, [class*="col-"] {
+    background: pink;
+    text-align: center;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    //this is horizontal alignment;
+    //font-size: 1em;
+}
+
+.first {
+    height: 60px;
+    margin-bottom: 8px;
+}
+
+.second {
+    height: 300px;
+    margin-bottom: 8px;
+}
+
+.third {
+    height: 80px;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    flex-wrap:wrap;
+}
+
+#fourth {
+    height: 60px;
+    margin-bottom: 4px;
+    margin-right: 3px;
+    width: 100px;
+}
+
+@media all and (max-width:906){
+    body{
+        //font-size:;
+    }
+}
+
